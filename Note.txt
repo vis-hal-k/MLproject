@@ -1,0 +1,41 @@
+Step 1. Create the new environment 
+    To create new env  -> command is.
+    => conda create -p venv python == 3.8 -y
+
+step 2. Lets activate envirnoment 
+    => conda activate venv/
+
+step3. Now lets clone with github repo.
+    => git init
+    => git add README.md
+    => git commit -m "First commit"
+    => git status
+    => git branch -m main
+    => git remote add origin https://.......
+    => git push -u origin main 
+ If you fo first time then for make a authetication or login command is 
+    => git config --global user.name "username"
+    => git config --global user.email "email_ID"
+
+step 4. In the github create new file i.e .gitignore and 
+        choose the .gitignore template inside is python and the commit.
+
+step 5. In VScode terminal does
+    => git pull
+    To update all changes and pull to vs code .gitignore will available in vscode file/folder
+
+step 6. create setup.py file and also requriments.txt file
+    Make complete ready the setup.py file as coding part and also requriments.txt file.
+
+step 7. Create new folder in vscode that is src and inside this scr folder make
+        __init__.py file
+
+step 8. After the completion of above all steps setup.py and requriements.txt file.
+        Run this command in the terminal.
+        (i). pip install -r requirements.txt 
+
+step 9. push all the newly create file and folder in the github from vscode terminal 
+    => git add .
+    => git status
+    => git commit -m "any_message"
+    => git push -u origin main
